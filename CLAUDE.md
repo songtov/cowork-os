@@ -28,6 +28,7 @@ Add rows to this table as you create new workstations. When you start a task, Co
 
 | Workstation | Route here when I... |
 |---|---|
+| Vibe Coding HQ | ...ask anything coding-related — write, review, refactor, debug, sketch architecture *(example workstation — rename or replace)* |
 | [Workstation Name] | [...trigger condition for this workstation] |
 
 ## References
