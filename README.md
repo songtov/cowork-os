@@ -2,7 +2,7 @@
 
 A starter template for [Cowork mode](https://www.anthropic.com/) — Anthropic's desktop tool that turns Claude into a workplace collaborator. Drop these files into a folder, point Cowork at it, and you have a working "operating system" with memory, voice, and modular workstations.
 
-Inspired by [this video](https://www.youtube.com/watch?v=0_dSWLOHKng).
+Inspired by [this video](https://www.youtube.com/watch?v=0_dSWLOHKng&t=465s).
 
 ## Using a different language
 
@@ -16,12 +16,18 @@ This starter is in English, but Cowork is multilingual. After setup, ask Cowork:
 ├── MEMORY.md              # Long-term memory: active projects + facts about you
 ├── 00_Resources/
 │   └── voice-principles.md  # Teaches Cowork to write in your voice
+├── Vibe_Coding_HQ/        # Example workstation — rename, gut, or replace
+│   ├── CLAUDE.md
+│   ├── MEMORY.md
+│   └── Resources/
 └── _templates/
     └── workstation/       # Copy this folder when you create a new workstation
         ├── CLAUDE.md
         ├── MEMORY.md
         └── Resources/
 ```
+
+`Vibe_Coding_HQ/` ships as a worked example so you can see the format before building your own. Read it for reference, then rename, gut, or delete the folder. The Routing Map row in the root `CLAUDE.md` points to it.
 
 ## How it works
 
