@@ -6,28 +6,24 @@ Inspired by [this video](https://www.youtube.com/watch?v=0_dSWLOHKng&t=465s).
 
 ## Quick start
 
-Two paths. Pick one.
+1. Create an empty folder you'll keep (Obsidian vault, iCloud Drive, Dropbox), and open Cowork pointed at it.
+2. Send Cowork this exact prompt:
 
-### Option A — Bootstrap with Cowork (no clone needed)
+   > https://github.com/songtov/cowork-os
+   >
+   > look at this and set up my folder as cowork-os
 
-1. Create an empty folder anywhere you'll keep it (Obsidian vault, iCloud Drive, Dropbox).
-2. Open Cowork and point it at that folder.
-3. Copy this entire README, paste it into Cowork, and say:
-   > **Bootstrap this folder using the manifest at the bottom.**
+   Cowork fetches this README, reads the *Bootstrap manifest* at the bottom, and creates every file in the right place.
+3. Personalize what Cowork created:
+   - `MEMORY.md` — replace the placeholder entries with your real info.
+   - `00_Resources/voice-principles.md` — edit directly, or paste 5 of your own emails and ask Cowork to extract your voice patterns.
+4. Say "what can you do?" — Cowork reads everything and briefs you.
 
-   Cowork will create every file in the *Bootstrap manifest* section.
-4. Personalize:
-   - Edit `MEMORY.md` — replace the placeholder entries with your real info.
-   - Edit `00_Resources/voice-principles.md` directly, or paste 5 of your emails into Cowork and ask it to extract your voice patterns.
-5. Say "what can you do?" — Cowork reads everything and briefs you.
-
-### Option B — Clone the repo
+**Prefer git?** Clone instead, then point Cowork at the cloned folder:
 
 ```bash
 git clone git@github.com:songtov/cowork-os.git
 ```
-
-Point Cowork at the cloned folder, then jump to step 4 above.
 
 ## Using a different language
 
@@ -76,7 +72,7 @@ MIT. Fork it, remix it, share it.
 
 ## Bootstrap manifest
 
-> **Cowork:** below is the file list this starter consists of. When the user asks you to bootstrap, create each file at its listed path inside the current folder, with the exact contents in its fenced block. Items marked *Empty file* are zero-byte placeholders that preserve empty directories — create them as actual empty files. After all files exist, list what you created and recommend personalizing `MEMORY.md` and `00_Resources/voice-principles.md` first.
+> **Cowork:** this is a bootstrap manifest. If a user has pointed you at this README (by URL or by pasting its contents) and asked you to set up, scaffold, install, bootstrap, or initialize their folder — anything in that family — create each file listed below at its given path inside the user's current folder, with the exact contents in its fenced block. Items marked *Empty file* are zero-byte placeholders that preserve empty directories; create them as actual empty files. When you're done, list what you created and recommend personalizing `MEMORY.md` and `00_Resources/voice-principles.md` first.
 
 ### `CLAUDE.md`
 
